@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="brunajogo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+    <title>Preciso de um mecânico</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <div style="background-image:url(img/cenario-passo0.jpg)" class="image"></div>
+            <p>Você está viajando de carro, já faz horas desde a última casa, meu Deus, parece uma floresta sem fim. Seu
+                carro simplesmente para, tudo parece normal mas ele não funciona e pra piorar seu telefone
+                descarregou...</p>
+            <div class="action-button">
+                <button class="btn-proximo" data-proximo="1">Seguir a estrada a pé procurando por ajuda</button>
+                <button class="btn-proximo" data-proximo="2">Tentar concertar o carro</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <div style="background-image:url(img/cenario-passo1.jpeg)" class="image"></div>
+            <p>Realmente não há ninguém, está anoitecendo</p>
+            <div class="action-button">
+                <button class="btn-proximo" data-proximo="3">Voltar para o carro</button>
+                <button class="btn-proximo" data-proximo="4">Gritar por ajuda</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>
+                Você tenta tenta mas o carro simplesmente não funciona
+            </p>
+            <div class="action-button">
+                <button class="btn-proximo" data-proximo="5">Gritar por ajuda</button>
+                <button class="btn-proximo" data-proximo="6">Andar até achar algum sinal de vida</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <div style="background-image:url(img/cenario-passo3.avif)" class="image"></div>
+            <p>O céu já está muito escuro, mas vc ve algo parecido como uma lanterna brilhando logo a frente</p>
+            <div class="action-button">
+                <button class="btn-proximo" data-proximo="7">Seguir a luz</button>
+                <button class="btn-proximo" data-proximo="8">Esperar pra ver o que acontece</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <div style="background-image:url(img/cenario-passo4-5.avif)" class="image"></div>
+            <p>vc está chamando muita atenção. Um grupo de pessoas com roupas estranhas te oferece ajuda e abrigo</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="9">Aceitar</button>
+            <button class="btn-proximo" data-proximo="10">negar</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <div style="background-image:url(img/cenario-passo4-5.avif)" class="image"></div>
+            <p>
+                vc está chamando muita atenção. Um grupo de pessoas com roupas estranhas te oferece ajuda e abrigo
+            </p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="9">Aceitar</button>
+            <button class="btn-proximo" data-proximo="10">negar</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <div style="background-image:url(img/cenario-passo6-9.jpg)" class="image"></div>
+            <p>
+                Finalmente uma casa!
+            </p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="11">Ir até lá</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A luz era na verdade a lâmpada de uma casa</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="12">Ir até lá</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Nada acontece</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="13">Seguir a luz</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <div style="background-image:url(img/cenario-passo6-9.jpg)" class="image"></div>
+            <p>Eles te levam até a casa, mas a casa é MUITO estranha</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="14">Correr</button>
+            <button class="btn-proximo" data-proximo="15">Entrar</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Seus novos amigos não vão gostar disso</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="16">Aceitar</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <div style="background-image:url(img/cenario-passo11-12.webp)" class="image"></div>
+            <p>Que casa estranha. E quem são essas pessoas com essas roupas macabras?</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="14">Correr</button>
+            <button class="btn-proximo" data-proximo="15">Entrar</button>
+        </div>
+        </div>
+
+        <div class="passo" id="passo-12">
+
+            <div style="background-image:url(img/cenario-passo11-12.webp)" class="image"></div>
+            <p>Que casa estranha. E quem são essas pessoas com essas roupas macabras?</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="14">Correr</button>
+            <button class="btn-proximo" data-proximo="15">Entrar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>A luz era na verdade a lâmpada de uma casa</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="12">Ir até lá</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <div style="background-image:url(img/cenario-passo14.jpeg)" class="image"></div>
+            <p>Você corre como se não houvesse amanhã, mas alguem perto do seu carro chama pelo seu nome</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="16">continuar correndo</button>
+            <button class="btn-proximo" data-proximo="17">Parar</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <div style="background-image:url(img/cenario-passo15.jpeg)" class="image"></div>
+            <p>O jantar esta pronto, como se eles estivessem esperando por você. Ao seu redor eistem várias estrelas e
+                cruzes e ninguèm fala com vc</p>
+                <div class="action-button">
+            <button class="btn-proximo" data-proximo="18">Tentar ir embora</button>
+            <button class="btn-proximo" data-proximo="19">Sentar para comer</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <div style="background-image:url(img/cenario-passo16.jpg)" class="image"></div>
+            <p>Você continua correndo, sem parar, NÃO OLHE PARA TRÁS. Seu carro por um algum milagre funciona e você
+                consegue fugir</p>
+                <div class="action-button">
+            <button class="btn-proximo" data-proximo="20">O que aconteceria?</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Você sente uma dor forte na cabeça e derrepente tudo escurece, eles te levam pra dentro da casa...</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="18">Tentar ir embora</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <p>É tarde demais, não tem para onde fugir</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="21">O que aconteceu?</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <p>Você é a sobremesa</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="21">O que aconteceu?</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <div style="background-image:url(img/cenario-passo20.jpeg)" class="image"></div>
+            <p>Você estava prestes a ser vitima de una seita satânica, que usa suas vitimas como sacrifício para seus
+                rituais, mas vc foi inteligente, Parabéns</p>
+                <div class="action-button">
+            <button class="btn-proximo" data-proximo="22">FIM!!!</button>
+            </div>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <div style="background-image:url(img/cenario-passo21.jpg)" class="image"></div>
+            <p>Você foi vítima de uma seita sobrenatural que procura vítimas para sacrifícios</p>
+            <div class="action-button">
+            <button class="btn-proximo" data-proximo="23">fim...</button>
+            </div>
+        </div>
+
+
+        <div class="passo" id="passo-22">
+            <div style="background-image:url(img/cenario-passo22.avif)" class="image"></div>
+            <p>Foi por pouco...</p>
+        </div>
+
+        <div class="passo" id="passo-23">
+            <div style="background-image:url(img/cenario-passo23.jpg)" class="image"></div>
+            <p> Sinto muito...</p>
+        </div>
+
+    </main>
+    <script src="brunajogo.js"></script>
+
+
+
+
+</body>
+
+</html>
